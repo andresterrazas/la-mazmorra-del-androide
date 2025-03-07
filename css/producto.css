@@ -1,0 +1,12 @@
+#detalles-producto {
+    display: flex;
+    gap: 2rem;
+}
+
+#detalles-producto img {
+    max-width: 300px;
+}
+
+#detalles-producto .descripcion {
+    flex: 1;
+}

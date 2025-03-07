@@ -1,0 +1,8 @@
+#error-404 {
+    text-align: center;
+    padding: 5rem 2rem;
+}
+
+#error-404 h2 {
+    font-size: 2rem;
+}
