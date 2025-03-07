@@ -203,3 +203,124 @@ footer {
 .product-card .details .btn:hover {
     background-color: var(--accent-color);
 }
+
+/* Carrusel */
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 2rem auto;
+}
+
+.carousel img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.carousel .controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.carousel .controls button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.carousel .controls button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Secciones */
+.section {
+    margin-bottom: 4rem;
+}
+
+.section h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* Categorías */
+.categories {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.categories .category {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    flex: 1;
+    min-width: 200px;
+    max-width: 300px;
+}
+
+.categories .category img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.categories .category h3 {
+    margin-top: 1rem;
+}
+
+/* Carrito */
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.cart-item img {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 1rem;
+}
+
+.cart-item .details {
+    flex: 1;
+}
+
+.cart-item .details h3 {
+    margin-bottom: 0.5rem;
+}
+
+.cart-item .details .price {
+    color: var(--accent-color);
+    font-weight: bold;
+}
+
+.cart-item .actions {
+    display: flex;
+    align-items: center;
+}
+
+.cart-item .actions button {
+    background-color: var(--secondary-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin-left: 1rem;
+    transition: background-color 0.3s;
+}
+
+.cart-item .actions button:hover {
+    background-color: var(--accent-color);
+}
