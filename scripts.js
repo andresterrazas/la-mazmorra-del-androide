@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
             newRow.innerHTML = `
                 <td>${productName}</td>
                 <td>${stock}</td>
-                <td><button onclick="deleteRow(this)">Eliminar</button></td>
+                <td><button onclick="deleteRow(this)"><i class="fas fa-trash"></i></button></td>
             `;
             inventoryForm.reset();
         });
@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
             newRow.innerHTML = `
                 <td>${supplierName}</td>
                 <td>${contact}</td>
-                <td><button onclick="deleteRow(this)">Eliminar</button></td>
+                <td><button onclick="deleteRow(this)"><i class="fas fa-trash"></i></button></td>
             `;
             supplierForm.reset();
         });
